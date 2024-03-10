@@ -1,6 +1,6 @@
-function highlightBook(event) 
+function hBook(event) 
 {
-    var bookList = document.getElementById('book-list').getElementsByTagName('li');
+    var bookList = document.getElementById('bookList').getElementsByTagName('li');
     for (var i = 0; i < bookList.length; i++) 
     {
         bookList[i].classList.remove('selected');
